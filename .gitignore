@@ -5,3 +5,5 @@
 "/data" 
 "*.csv" 
 "/processed_data" 
+"*.xls" 
+"/raw_data" 
