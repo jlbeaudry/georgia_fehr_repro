@@ -1259,7 +1259,7 @@ pprobgraph <- ggplot(data=pvplotdata2,
 pprobgraph + theme_apa()
 
 #save graph as a .png file  
-ggsave(here::here("images", "pprobgraph_reanalysis.png"), scale = 1, limitsize = FALSE)
+ggsave(here::here("images", "pprobgraph_reanalysis.png"), width = 4, height = 4, scale = 1, limitsize = FALSE)
 
 ### ENVY GAME ###
 
@@ -1411,7 +1411,7 @@ eprobgraph <- ggplot(data=evplotdata2,
 eprobgraph + theme_apa()
 
 #save graph as a .png file  
-ggsave(here::here("images", "eprobgraph_reanalysis.png"), scale = 1, limitsize = FALSE)
+ggsave(here::here("images", "eprobgraph_reanalysis.png"), width = 4, height = 4, scale = 1, limitsize = FALSE)
 
 ### SHARING GAME ###
 #build Sharing mini-game only model
@@ -1562,7 +1562,7 @@ sprobgraph <- ggplot(data=svplotdata2,
 sprobgraph + theme_apa()
 
 #save graph as a .png file  
-ggsave(here::here("images", "sprobgraph_reanalysis.png"), scale = 1, limitsize = FALSE)
+ggsave(here::here("images", "sprobgraph_reanalysis.png"), width = 4, height = 4, scale = 1, limitsize = FALSE)
 
 #### MODEL TABLES BY GAME #### 
 ## SHARING GAME ##

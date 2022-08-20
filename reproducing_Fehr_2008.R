@@ -526,7 +526,7 @@ theme(legend.position="top")
 ppgraph + theme_apa()
 
 #save graph as a .png file  
-ggsave(here::here("images", "ppgraph_reproduction.png"), scale = 1, limitsize = FALSE)
+ggsave(here::here("images", "ppgraph_reproduction.png"), width = 4, height = 4, scale = 1, limitsize = FALSE)
 
 #Create Envy game proportion Graph
 epgraph <- ggplot(evgraphdata,
@@ -559,7 +559,7 @@ theme(legend.position="top")
 epgraph + theme_apa()
 
 #save graph as a .png file  
-ggsave(here::here("images", "epgraph_reproduction.png"), scale = 1, limitsize = FALSE)
+ggsave(here::here("images", "epgraph_reproduction.png"), width = 4, height = 4, scale = 1, limitsize = FALSE)
 
 
 #Create Sharing game proportion Graph
@@ -593,7 +593,7 @@ theme(legend.position="top")
 spgraph + theme_apa()
 
 #save graph as a .png file  
-ggsave(here::here("images", "spgraph_reproduction.png"), scale = 1, limitsize = FALSE)
+ggsave(here::here("images", "spgraph_reproduction.png"), width = 4, height = 4, scale = 1, limitsize = FALSE)
 
 #### PROBIT REGRESSION ####
 
