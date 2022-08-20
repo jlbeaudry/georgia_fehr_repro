@@ -10,3 +10,5 @@
 "/results" 
 "*.png" 
 *.xlsx 
+*.csv 
+*.png 
