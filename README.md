@@ -1,2 +1,7 @@
 # georgia_fehr_repro
-Code to reproduce Fehr et al (2008)'s data analyses and reanalyse the data
+
+Code to reproduce Fehr et al (2008)'s data analyses and reanalyse their data. 
+Also includes power analyses to determine how much data we would need to collect
+if we reran this experiment using an online protocol. 
+
+Code by Georgia Clift. Minimal validation & assistance by Jennifer L Beaudry. 
