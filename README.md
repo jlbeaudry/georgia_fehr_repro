@@ -9,7 +9,6 @@ Code by Georgia Clift. Minimal validation & assistance by Jennifer L Beaudry.
 
 
 ### Folder structure
-. 
  * [raw_data](./raw_data)
  * [processed_data](./processed_data)
  * [images](./images)
