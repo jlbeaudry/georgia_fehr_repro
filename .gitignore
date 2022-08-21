@@ -2,13 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-"/data" 
-"*.csv" 
-"/processed_data" 
-"*.xls" 
-"/raw_data" 
-"/results" 
-"*.png" 
+
+# ignore all data related files and outputs
 *.xlsx 
 *.csv 
 *.png 
